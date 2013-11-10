@@ -7,7 +7,7 @@
     <title>Spring 3.2 Hello World</title>
 </head>
 <body>
-<h2>hello ${name}</h2>
+<h2>x hello ${requestScope.name}</h2>
 </body>
 </html>
 
