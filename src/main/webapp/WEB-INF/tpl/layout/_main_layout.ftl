@@ -49,10 +49,16 @@
             <a class="brand" href="#">Project name</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li class="active"><a href="<@spring.url '/'/>">Home</a></li>
+                    <li><a href="<@spring.url '/welcome/hello'/>">About</a></li>
                 </ul>
+
+
+                <form class="navbar-form pull-right">
+                    <a class="btn" href="<@spring.url '/j_spring_security_logout'/>">注销</a>
+                </form>
+
+
             </div><!--/.nav-collapse -->
         </div>
     </div>
