@@ -9,7 +9,7 @@
 
     <mvc:annotation-driven/>
 
-    <mvc:resources mapping="/static/**" location="/static/"/>
+    <mvc:resources mapping="/resources/**" location="/resources/"/>
 
     <mvc:default-servlet-handler/>
 
@@ -50,7 +50,7 @@
         <property name="cache" value="true"/>
         <property name="prefix" value=""/>
         <property name="suffix" value=".ftl"/>
-        <property name="contentType" value="text/html;charset=UTF-8"></property>
+        <property name="contentType" value="text/html;charset=UTF-8"/>
         <property name="requestContextAttribute" value="request" />
         <property name="exposeSpringMacroHelpers" value="true" />
         <property name="exposeRequestAttributes" value="true" />

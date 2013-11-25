@@ -39,9 +39,6 @@
     <!--
     <bean id="persistenceExceptionTranslationPostProcessor"
           class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" />
-    -->
-
-    <!--
     <jpa:repositories base-package="com.github.yanhua365.**.domain" transaction-manager-ref="transactionManager"/>
     -->
 

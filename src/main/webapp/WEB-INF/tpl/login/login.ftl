@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="<@spring.url '/static/css/bootstrap.css'/>" rel="stylesheet">
+    <link href="<@spring.url '/resources/css/bootstrap.css'/>" rel="stylesheet">
     <style type="text/css">
         body {
             padding-top: 40px;
@@ -43,11 +43,11 @@
         }
 
     </style>
-    <link href="<@spring.url '/static/css/bootstrap-responsive.css'/>" rel="stylesheet">
+    <link href="<@spring.url '/resources/css/bootstrap-responsive.css'/>" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    <script src="<@spring.url '/static/js/html5shiv.js'/>"></script>
+    <script src="<@spring.url '/resources/js/html5shiv.js'/>"></script>
     <![endif]-->
 
     <!-- Fav and touch icons
@@ -91,6 +91,7 @@
 <!-- Le javascript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="<@spring.url '/static/js/bootstrap.js'/>"></script>
+<script src="<@spring.url '/resources/js/jquery.js'/>"></script>
+<script src="<@spring.url '/resources/js/bootstrap.js'/>"></script>
 </body>
 </html>

@@ -10,17 +10,17 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="<@spring.url '/static/css/bootstrap.css'/>" rel="stylesheet">
+    <link href="<@spring.url '/resources/css/bootstrap.css'/>" rel="stylesheet">
     <style>
         body {
             padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
         }
     </style>
-    <link href="<@spring.url '/static/css/bootstrap-responsive.css'/>" rel="stylesheet">
+    <link href="<@spring.url '/resources/css/bootstrap-responsive.css'/>" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    <script src="<@spring.url '/static/js/html5shiv.js'/>"></script>
+    <script src="<@spring.url '/resources/js/html5shiv.js'/>"></script>
     <![endif]-->
 
     <#list styles as st>
@@ -73,7 +73,8 @@
 <!-- Le javascript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="<@spring.url '/static/js/bootstrap.js'/>"></script>
+<script src="<@spring.url '/resources/js/jquery.js'/>"></script>
+<script src="<@spring.url '/resources/js/bootstrap.js'/>"></script>
 
 <#list scripts as sc>
 <script src="<@spring.url '${sc}'/>"></script>
