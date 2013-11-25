@@ -24,6 +24,7 @@ dependencies {
 
     compile 'com.jayway.jsonpath:json-path:0.8.1'
 
+    compile 'com.google.guava:guava:15.0'
     compile 'org.slf4j:slf4j-api:1.7.5'
     //runtime 'org.slf4j:slf4j-jdk14:1.7.5'
     runtime 'org.slf4j:slf4j-log4j12:1.7.5'
